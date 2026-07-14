@@ -1,16 +1,10 @@
-import { useState } from 'react'
-import Header from './components/Header.jsx'
-import './App.css'
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './css/index.css'
+import App from './components/App.jsx'
 
-
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <Header />
-    </>
-  )
-}
-
-export default App
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+)
