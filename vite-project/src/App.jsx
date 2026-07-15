@@ -1,10 +1,20 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './css/index.css'
-import App from './components/App.jsx'
+// importe do componentes
+import Header from './components/Header'
+import Menu from './components/Menu'
+import Footer from './components/Footer'
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+import './css/App.css'
+
+
+function App() {
+
+  return (
+    <>
+    <Header/>
+    <Menu/>
+    <Footer />
+    </>
+  )
+}
+
+export default App
