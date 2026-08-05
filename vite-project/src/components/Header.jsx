@@ -1,35 +1,44 @@
 import '../css/Header.css'
+import Menu from './Menu'
 import imgLinkedIn from '../img/linkedin.webp'
 import imgGitHub from '../img/github.png'
 
 
 function Header(){
     return(
+
         <header>
-            <div className='header-text'>
-                <div className='texto1'>
-                    <h1>eu sou</h1>
-                    <h1>ESTELA BALDESSAR</h1>
-                    <h1>DESENVOLVEDORA WEB</h1>
+
+            <Menu/>
+            <div className='header-left'>
+                <div className='header-text'>
+                    <div className='texto1'>
+                        <p className='saudacao'>Oiê, eu sou</p>
+                        <h1 className='nome'>ESTELA BALDESSAR</h1>
+                        <p className='profissao'>DESENVOLVEDORA WEB</p>
+                    </div>
+                </div>
+                <div className='apresentacao'>
+                    <p>Estudante de Tecnologia da Informação, apaixonada por desenvolvimento de software e criação de soluções modernas, responsivas e eficientes.</p>
+                </div>
+                <div >
+                    <ul className='redes'>
+                        <li>
+                            <a href="https://github.com/estelacarvalhobaldessar" >
+                                <img src={imgGitHub} alt="GitHub" className='github' />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/estela-baldessar/">
+                                <img src={imgLinkedIn} alt="linkedin" className='linkEdin' />
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div className='apresentacao'>
-                <p>Estudante de Tecnologia da Informação, apaixonada por desenvolvimento de software e criação de soluções modernas, responsivas e eficientes.</p>
-            </div>
-            <div >
-                <ul className='redes'>
-                    <li>
-                        <a href="https://github.com/estelacarvalhobaldessar" >
-                            <img src={imgGitHub} alt="GitHub" className='github' />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/estela-baldessar/">
-                            <img src={imgLinkedIn} alt="linkedin" className='linkEdin' />
-                        </a>
-                        
-                    </li>
-                </ul>
+            
+            <div className='foto'>
+                
             </div>
         </header>
     )

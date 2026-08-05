@@ -1,20 +1,69 @@
+ul.redes{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+ul.redes li{
+    float: left;
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+    list-style-type: none;
+}
+.header-text{
+    width: 370px;
+    height: 200px;
+    
+}
 .github{
     height: 50px;
     width: 50px;
-    margin-left: 70px;
 }
 .linkEdin{
     height: 50px;
     width: 50px;
-    margin-left: 70px;
 }
 .texto1{
-    margin-top: 30px;
+    margin-top: 80px;
     margin-left: 50px;
 }
 .apresentacao{
     height: auto;
     width: 450px;
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 55px;
+    color: white;
+}
+.saudacao{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: white;
+}
+.nome{
+    font-size: 50px;
+    margin-left: 5px;
+    color: white;
+}
+.profissao{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 5px;
+    color: white;
+}
+.header-left{
+    width: 50%;
+    display: block;
+    float: left;
+}
+.foto {
+    background-image: url('../img/estela.jpg');
+    width: 250px;
+    height: 320px;
+    float: right;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: cover;
+    border-radius: 10%;
+    margin-top:80px;
+    margin-right: 20%;
 }

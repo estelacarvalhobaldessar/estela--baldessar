@@ -1,12 +1,16 @@
-function Menu(){
-    return(
-        <ul>
-            <li><a href="#">a</a></li>
-            <li><a href="#">b</a></li>
-            <li><a href="#">c</a></li>
-            <li><a href="#">d</a></li>
-        </ul>
-    )
+import '../css/Menu.css';
+
+function Menu() {
+    return (
+        <nav>
+            <ul className="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    );
 }
 
 export default Menu;

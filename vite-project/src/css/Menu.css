@@ -1,0 +1,27 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px 20px;
+    margin: 0;
+    gap: 20px;
+
+    /* Posiciona o menu no topo */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Garante que o menu fique acima de outros elementos */
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+    color: #0077b6;
+}
