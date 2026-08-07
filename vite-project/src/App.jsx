@@ -2,7 +2,7 @@
 import Header from './components/Header'
 import Menu from './components/Menu'
 import Footer from './components/Footer'
-
+import Habilidades from './components/Habilidades'
 import './css/App.css'
 
 
@@ -12,6 +12,7 @@ function App() {
     <>
     <Header/>
     <Menu/>
+    <Habilidades/>
     <Footer />
     </>
   )

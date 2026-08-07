@@ -1,0 +1,95 @@
+main{
+    height: 500px;
+    width: 100%;
+    background: #0a0a70;
+  background: radial-gradient(circle, rgba(10, 10, 112, 1) 0%, rgba(2, 0, 36, 1) 100%);
+    display: block;
+    float: left;
+}
+.habilidades{
+    width: 50%;
+    display: block;
+    float: left;
+    color: white;
+    margin-top: 20px;
+    margin-left: 55px;
+}
+.sobre{
+    margin-top: 20px;
+    margin-left: 55px;
+}
+.mais-sobre{
+    width: 50%;
+    display: block;
+    float: left;
+    color: white;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+.sobre-mim{
+    width: 80%;
+    display: block;
+    float: left;
+    color: white;
+    margin-top: 40px;
+    margin-left: 65px;
+}
+.blocos{
+    width: 45%;
+    display: block;
+    float: right;
+    color: white;
+    margin-top: 150px;
+}
+.bloco1{
+    height: 150px;
+    width: 170px;
+    box-shadow: black 0px 0px 10px;
+    float: left;
+    border-radius: 10%;
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.bloco1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.35);
+    
+}
+.titulo{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.texto{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.bloco2{
+    height: 150px;
+    width: 170px;
+    box-shadow: black 0px 0px 10px;
+    float: left;
+    border-radius: 10%;
+    margin-left: 20px;
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.bloco2:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.35);
+}
+.bloco3{
+    height: 150px;
+    width: 170px;
+    box-shadow: black 0px 0px 10px;
+    float: left;
+    border-radius: 10%;
+    margin-left: 20px;
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.bloco3:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.35);
+}

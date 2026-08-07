@@ -10,7 +10,7 @@ function Header(){
         <header>
 
             <Menu/>
-            <div className='header-left'>
+            <div id="home" className='header-left'>
                 <div className='header-text'>
                     <div className='texto1'>
                         <p className='saudacao'>Oiê, eu sou</p>
@@ -24,12 +24,12 @@ function Header(){
                 <div >
                     <ul className='redes'>
                         <li>
-                            <a href="https://github.com/estelacarvalhobaldessar" >
+                            <a href="https://github.com/estelacarvalhobaldessar" target='_blank'>
                                 <img src={imgGitHub} alt="GitHub" className='github' />
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/estela-baldessar/">
+                            <a href="https://www.linkedin.com/in/estela-baldessar/" target='blank'>
                                 <img src={imgLinkedIn} alt="linkedin" className='linkEdin' />
                             </a>
                         </li>
