@@ -1,0 +1,59 @@
+main.teste{
+    height: 700px;
+    width: 100%;
+    background: #0a0a70;
+  background: radial-gradient(circle, rgba(10, 10, 112, 1) 0%, rgba(2, 0, 36, 1) 100%);
+    display: block;
+    float: left;
+}
+.projetos{
+    display: block;
+    float: left;
+    color: white;
+    margin-top: 20px;
+    margin-left: 55px;
+    
+}
+.projetos-texto{
+    color: white;
+    margin-top: 20px;
+    margin-left: 55px;
+}
+.titulo-projeto{
+    width: 50%;
+    display: block;
+    float: left;
+    color: white;
+    margin-top: 10px;
+    margin-left: 95px;
+}
+.texto-projeto{
+    width: 80%;
+    display: block;
+    float: left;
+    color: white;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.blocos-projetos{
+    width: 85%;
+    display: block;
+    margin-left: 10%;
+}
+.bloco-projeto{
+    width: 30%;
+    height: 400px;
+    margin-right: 10px;
+    background: #0a0a70;
+  background: radial-gradient(circle, rgba(10, 10, 112, 1) 0%, rgba(2, 0, 36, 1) 100%);
+    float: left;
+    border-radius: 10%;
+}
+.imgecoleta{
+    width: 100%;
+    border-radius: 30px 30px 0 0 ;
+}
+.imgstarker{
+    width: 100%;
+    border-radius: 30px 30px 0 0 ;
+}
