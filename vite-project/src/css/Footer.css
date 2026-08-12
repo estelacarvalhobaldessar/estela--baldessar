@@ -1,0 +1,48 @@
+.footer{
+    height: 200px;
+    width: 100%;
+    background: #0a0a70;
+    background: radial-gradient(circle, rgba(10, 10, 112, 1) 0%, #020024 100%);
+    display: block;
+    float: left;
+}
+.img1{
+    width: 80px;
+    height: 80px;
+    display: block;
+    float: left;
+    background: #020024;
+    margin-top: 20px;
+    margin-left: 20px;
+    align-items: center;
+    border-radius: 10%;
+}
+.imagens{
+    width: 80px;
+    display: block;
+    float: left;
+    
+}
+.footer-titulo{
+    text-align: center;
+    color: white;
+}
+.linguagens{
+    width: 50%;
+    display: block;
+    float: left;
+    height: 98px;
+    margin-left: 25%;
+}
+.imagenshtml{
+
+    display: block;
+    float: left;
+}
+.html{
+    width: 150px;
+    display: block;
+    float: left;
+    text-align: center;
+    background-image: url(../img/imghtml.png);
+}

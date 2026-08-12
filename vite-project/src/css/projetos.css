@@ -19,6 +19,20 @@ main.teste{
     margin-top: 20px;
     margin-left: 55px;
 }
+.projetos-titulo{
+    color: white;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+.projetos-sobre{
+    width: 80%;
+    display: block;
+    float: left;
+    color: white;
+    margin-top: 20px;
+    margin-left: 65px;
+    margin-bottom: 30px;
+}
 .titulo-projeto{
     width: 50%;
     display: block;
@@ -26,6 +40,26 @@ main.teste{
     color: white;
     margin-top: 10px;
     margin-left: 95px;
+    margin-bottom: 10px;
+}
+.titulo-projeto1{
+    width: 70%;
+    display: block;
+    float: left;
+    color: white;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+.titulo-projeto2{
+    width: 70%;
+    display: block;
+    float: left;
+    color: white;
+    margin-top: 10px;
+    margin-left: 105px;
+    margin-bottom: 10px;
+
 }
 .texto-projeto{
     width: 80%;
@@ -45,15 +79,25 @@ main.teste{
     height: 400px;
     margin-right: 10px;
     background: #0a0a70;
-  background: radial-gradient(circle, rgba(10, 10, 112, 1) 0%, rgba(2, 0, 36, 1) 100%);
+    background: radial-gradient(circle, rgba(10, 10, 112, 1) 0%, rgba(2, 0, 36, 1) 100%);
     float: left;
     border-radius: 10%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.bloco-projeto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
 }
 .imgecoleta{
     width: 100%;
     border-radius: 30px 30px 0 0 ;
 }
 .imgstarker{
+    width: 100%;
+    border-radius: 30px 30px 0 0 ;
+}
+.imgdna{
+    
     width: 100%;
     border-radius: 30px 30px 0 0 ;
 }
