@@ -10,7 +10,7 @@ function Footer() {
     return  <div className='footer'>
 
         <div className='footer-texto'>
-            <p className='footer-titulo'>Habilidades</p>
+            <p className='footer-titulo' id='skills'>Habilidades</p>
             <p className='footer-titulo'>Aqui estão algumas das minhas habilidades em desenvolvimento web. </p>
         </div>
     <div className='linguagens'>
@@ -18,22 +18,21 @@ function Footer() {
                 <img src={html} alt="" className='html' />
             </div>
             <div className='img1'>
-                <img src={css} alt="" className='imagens' />
+                <img src={css} alt="" className='css' />
             </div>
             <div className='img1'>
-                <img src={js} alt="" className='imagens' />
+                <img src={js} alt="" className='js' />
             </div>
             <div className='img1'>
-                <img src={php} alt="" className='imagens' />
+                <img src={php} alt="" className='php' />
             </div>
             <div className='img1'>
-                <img src={react} alt="" className='imagens' />
+                <img src={react} alt="" className='react' />
             </div>
             <div className='img1'>
                 <img src={git} alt="" className='imagens' />
             </div>
     </div>
-
     </div>
 }
 

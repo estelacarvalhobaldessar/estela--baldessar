@@ -35,6 +35,7 @@ function Header(){
                         </li>
                     </ul>
                 </div>
+                <a href="mailto: ecbaldessar@gmail.com" className='botao-contato'>Contato</a>
             </div>
             
             <div className='foto'>
